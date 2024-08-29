@@ -9,11 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedTag = 1
-    
+
     var body: some View {
         TabView(selection: $selectedTag, content: {
-            AdditionView().tabItem { Text("item 1")}.tag(1)
-            SubtractionView().tabItem { Text("item 2")}.tag(2)
+            AdditionView()
+                .tabItem { Text("item 1")}
+                .tag(1)
+            SubtractionView()
+                .tabItem { Text("item 2")}
+                .tag(2)
         })
     }
 }
