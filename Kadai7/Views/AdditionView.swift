@@ -30,7 +30,7 @@ struct AdditionView: View {
                     let number2 = Int(inputNumber2.trimmingCharacters(in: .whitespaces)) ?? 0
                     result = String(number1 + number2)
                 }
-                Label(result, systemImage: "")
+                Text(result)
                 Spacer()
             }
             .padding()
