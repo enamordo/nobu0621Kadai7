@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				0CBAF0D62C7C82080041A6B6 /* Kadai7App.swift */,
-				0CBAF0E42C7D6B890041A6B6 /* View */,
+				0CBAF0E42C7D6B890041A6B6 /* Views */,
 				0CBAF0DA2C7C82090041A6B6 /* Assets.xcassets */,
 				0CBAF0DC2C7C82090041A6B6 /* Preview Content */,
 			);
@@ -71,14 +71,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0CBAF0E42C7D6B890041A6B6 /* View */ = {
+		0CBAF0E42C7D6B890041A6B6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				0CBAF0D82C7C82080041A6B6 /* ContentView.swift */,
 				0CBAF0E72C7D6DCC0041A6B6 /* AdditionView.swift */,
 				0CBAF0E92C7D6F4D0041A6B6 /* SubtractionView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
